@@ -4,6 +4,9 @@ class TestAssertions(unittest.TestCase):
 
     def test_equals(self):
         self.assertEqual("one string", "one string")
+        #self.assertEqual("one string", "other string")
+        #This will result in an assertion failure because the strings are different. 
+
      
 if __name__ == '__main__':
     unittest.main()
